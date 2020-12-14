@@ -1,3 +1,5 @@
+#### Example 
+
 ```c
 #include "libkdump.h"
 
@@ -19,5 +21,9 @@ int main() {
 	}
 	return 0;
 }
+```
 
+Compile and link with libkdump (static)
+```bash
+gcc example.c -L. -static -lkdump -pthread
 ```
